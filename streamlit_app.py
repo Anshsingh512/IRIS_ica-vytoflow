@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
-from scikit-learn.model_selection import train_test_split
-from scikit-learn.neighbors import KNeighborsClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
 
 # Load the Iris dataset
 iris = pd.read_csv("IRIS.csv")
